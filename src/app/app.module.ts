@@ -20,6 +20,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {AppRouteModule} from './app-route.module'
 
 import { BrowserAnimationsModule } from'@angular/platform-browser/animations';
+import {MatButtonModule} from'@angular/material/button'
 
 // const routes: Routes = [
 //   {
@@ -63,6 +64,7 @@ import { BrowserAnimationsModule } from'@angular/platform-browser/animations';
     HomeModule,
     AppRouteModule,
     BrowserAnimationsModule,
+    MatButtonModule,
   ],
   providers: [BackendService],
   bootstrap: [AppComponent]
